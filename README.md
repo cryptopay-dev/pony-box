@@ -1,5 +1,6 @@
 # 📦 Box - is your dependency helping hand
 [![Build Status](https://travis-ci.org/cryptopay-dev/pony-box.svg?branch=master)](https://travis-ci.org/cryptopay-dev/pony-box)
+[![codecov](https://codecov.io/gh/cryptopay-dev/pony-box/branch/master/graph/badge.svg)](https://codecov.io/gh/cryptopay-dev/pony-box)
 
 ## Usage
 ```go
@@ -22,7 +23,6 @@ func (a A) Ping() string {
 func (b B) Pong() string {
 	return "pong"
 }
-
 
 func main() {
     b := box.New()
