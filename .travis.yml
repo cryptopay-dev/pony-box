@@ -10,7 +10,7 @@ before_install:
   - go get golang.org/x/tools/cmd/cover
 
 install:
-  - make dependency
+  - make deps
 
 script:
   - make test
