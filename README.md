@@ -1,4 +1,5 @@
 # 📦 Box - is your dependency helping hand
+[![Build Status](https://travis-ci.org/cryptopay-dev/pony-box.svg?branch=master)](https://travis-ci.org/cryptopay-dev/pony-box)
 
 ## Usage
 ```go
